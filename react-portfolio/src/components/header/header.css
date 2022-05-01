@@ -1,0 +1,30 @@
+header {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.downloadContainer {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    position: absolute;
+    top: 10rem;
+}
+
+.proflie {
+    margin-top: 2.5rem;
+}

@@ -1,5 +1,133 @@
-body {
-    background: black;
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+:root {
+    --color-bg:#FAFAFA;
+    --color-primary:#FAADAD;
+    --color-second:#FF9090;
+    --color-red: #F65C5C;
+    --color-purple:##4E1BC6;
+    --color-circle:#601FF9;
+    --color-blue-light:#2653AF;
+    --color-blue:#18288D;
+    --color-white:#fff;
+    --color-black:#000;
 
+    --transition:all 400ms ease;;
+    --container-width-lg:75%;
+    --container-width-md:86%;
+    --container-width-ms: 90%;
+}
+body {
+    background: var(--color-bg);
+    color: var(--color-black);
+    font-family: 'Comfortaa', cursive;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    background-color: #601FF9;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+/* simple style */
+
+h1,h2,h3,h4,h5 {
+    font-weight: 350;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top:8rem;
+    height: 100vh;
+}
+
+section > h2, section > h5 {
+    text-align:center;
+    color: var(--color-white);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom:3rem;
+}
+
+.text-light {
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-blue);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-second)
+}
+
+.btn {
+    width: max-content;
+    display:inline-block;
+    color: var(--color-black);
+    padding: 0.75rem 1.2rem;
+    border-radius:0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-second);
+    transition:  var(--transition)
+}
+
+.btn:hover {
+    background: var(--color-second);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    width: max-content;
+    display:inline-block;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius:0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-red);
+    transition:  var(--transition)
+}
+
+.btn-primary:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+    border-color: transparent;
+}
+
+/* responsive lage device */
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section{
+        margin-top:6rem;
+    }
+    
+}
+/* responsive small device */
+@media screen and (max-width:600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    section > h2{
+        margin-bottom:2rem;
+    }
 }
