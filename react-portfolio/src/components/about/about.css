@@ -35,7 +35,7 @@
 
 .about_all_card {
     display: grid;
-    grid-template-columns: repeat(2, 30%);
+    grid-template-columns: repeat(3, 30%);
     gap: 2rem;
 }
 .about_card {

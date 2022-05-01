@@ -7,10 +7,10 @@ nav {
     position: fixed;
     left: 10%;
     transform: translate(-70%);
-    bottom: 5rem;
+    top: 5rem;
     gap: 0.5rem;
     border-radius: 3rem;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 nav a {
@@ -26,4 +26,18 @@ nav a.active {
     background: var(--color-second);
     color: white;
 
+}
+
+/* responsive lage device */
+@media screen and (max-width:1024px) {
+    nav {
+        top: 5rem;
+    }
+    
+}
+/* responsive small device */
+@media screen and (max-width:600px) {
+    nav {
+        display: none;
+    }
 }
