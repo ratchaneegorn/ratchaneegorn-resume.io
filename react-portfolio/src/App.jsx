@@ -1,5 +1,5 @@
 import React from "react";
-// import ParticlesBg from "particles-bg";
+import ParticlesBg from "particles-bg";
 import { Header } from "./components/header/Header";
 import { About } from "./components/about/About";
 import { Skills } from "./components/skills/Skills";

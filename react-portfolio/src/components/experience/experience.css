@@ -1,3 +1,4 @@
+
 .card_exp {
     border: 1px solid var(--color-primary);
     background: var(--color-primary);
@@ -15,4 +16,42 @@
     background: var(--color-blue);
     border: 1px solid var(--color-blue);
     color: white;
+}
+
+/* responsive lage device */
+@media screen and (max-width:1024px) {
+    .exp_img {
+        display: none;
+    }
+    .card_all_exp {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .exp_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+/* responsive small device */
+@media screen and (max-width:600px) {
+    .exp_img {
+        display: none;
+    }
+    .card_all_exp {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .exp_container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card_exp a {
+        display: none;
+    }
 }

@@ -23,3 +23,30 @@
 .contact_me_image{
     margin: 2rem;
 }
+
+/* responsive lage device */
+@media screen and (max-width:1024px) {
+    .contact_option{
+        font-size: 0.5rem;
+        padding: 1.5rem;
+    }
+    .this_contact_contaioner {
+        font-size: 1.5rem;
+        position: relative;
+        top: 5rem;
+        }
+}
+/* responsive small device */
+@media screen and (max-width:600px) {
+   .contact_me_image{
+       display: none;
+   }
+   .contact_option{
+       font-size: 0.5rem;
+       padding: 0.5rem;
+   }
+   .this_contact_contaioner {
+       font-size: 1rem;
+   }
+   
+}

@@ -30,6 +30,9 @@ header {
     border-radius: 3rem;
     backdrop-filter: blur(20px);
 }
+.btn {
+    background: var(--color-bg);
+}
 
 .header_social a {
     background: transparent;

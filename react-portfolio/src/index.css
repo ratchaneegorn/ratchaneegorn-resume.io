@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 :root {
-    --color-bg:#FAFAFA;
+    --color-bg:#f5dada;
     --color-primary:#FAADAD;
     --color-second:#FF9090;
     --color-red: #F65C5C;
@@ -17,16 +17,9 @@
     --container-width-ms: 90%;
 }
 body {
-    background: var(--color-bg);
     color: var(--color-black);
     font-family: 'Comfortaa', cursive;
-
-}
-html {
-    scroll-behavior: smooth;
-}
-::-webkit-scrollbar {
-    display: none;
+    background: linear-gradient(-60deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 }
 
 /* simple style */
@@ -107,6 +100,7 @@ a:hover {
 @media screen and (max-width:1024px) {
     .container {
         width: var(--container-width-md);
+        font-size: 0.8rem;
     }
     section{
         margin-top:6rem;
@@ -117,6 +111,7 @@ a:hover {
 @media screen and (max-width:600px) {
     .container {
         width: var(--container-width-sm);
+        font-size: 0.6rem;
     }
     section > h2{
         margin-bottom:2rem;
