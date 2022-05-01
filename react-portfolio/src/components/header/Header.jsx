@@ -17,7 +17,6 @@ export const Header = () => {
         <div className="proflie">
           <img src={profile} alt="profile image" height="339" width="298" />
         </div>
-        <h1>1.22</h1>
         <Menubar/>
         <HeaderSocial/>
         
