@@ -43,21 +43,20 @@
     flex-direction: row;
     justify-content: center;
 }
+/* responsive lage device */
+@media screen and (max-width:1024px) {
+    /* .container{
+        width: 90%;
+    } */
+}
 
 /* responsive small device */
 @media screen and (max-width:600px) {
-    .container{
-        width: 90%;
-    }
-    .skill_card {
-        margin: 0.5rem;
-    }
-    .skill_card_mobile {
-        margin: 0.5rem;
-    }
+    /* .container{
+        width: 100%;
+    } */
     .container_skill_card {
         flex-direction: column;
-        margin: 20PX;
     }
 
 }

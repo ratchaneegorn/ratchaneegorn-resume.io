@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Picture2 from "../../assets/Picture2.png";
-import { BsTrophy, BsBookFill } from "react-icons/bs";
+import { BsTrophy, BsBookFill, BsGlobe } from "react-icons/bs";
 
 export const About = () => {
   return (
@@ -24,6 +24,11 @@ export const About = () => {
                 <BsBookFill className="about_card_icon" />
                 <h5>Projects</h5>
                 <small>5 projects in class</small>
+              </article>
+              <article className="about_card">
+                <BsGlobe className="about_card_icon" />
+                <h5>Language</h5>
+                <small>English and Thai</small>
               </article>
             </div>
             <p>
@@ -49,5 +54,3 @@ export const About = () => {
   );
 };
 
-{
-}

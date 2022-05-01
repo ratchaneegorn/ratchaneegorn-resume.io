@@ -1,6 +1,18 @@
-.container {
-    text-align: center;
-    height: 100%;
-    position: relative;
-    top: 10%;
+.card_exp {
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    padding: 1.5rem;
+    border-radius: 20px;
+}
+.card_all_exp {
+    display: grid;
+    grid-template-columns:repeat(4,20%); 
+    gap: 1.5rem;
+    justify-content: center;
+    
+}
+.mobile{
+    background: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    color: white;
 }
