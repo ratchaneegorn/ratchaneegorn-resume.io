@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ratchaneegorn.io/static/css/main.2a81cc93.css",
+    "main.js": "/ratchaneegorn.io/static/js/main.44dbd6e2.js",
+    "static/media/Web_dev_resume.jpg": "/ratchaneegorn.io/static/media/Web_dev_resume.644912ad0549470495ac.jpg",
+    "static/media/resume_ratchaneegorn_web.pdf": "/ratchaneegorn.io/static/media/resume_ratchaneegorn_web.192c04724ab3d84dcf84.pdf",
+    "static/media/profile.jpg": "/ratchaneegorn.io/static/media/profile.095adb1109ca3288875c.jpg",
+    "static/media/kku-hospital.jpg": "/ratchaneegorn.io/static/media/kku-hospital.c816a78e07052de0e49e.jpg",
+    "static/media/digipay.png": "/ratchaneegorn.io/static/media/digipay.ba63e44e55a9a2e488bf.png",
+    "static/media/renew.jpg": "/ratchaneegorn.io/static/media/renew.3c4a7671df5daa6e7146.jpg",
+    "static/media/Picture2.png": "/ratchaneegorn.io/static/media/Picture2.6c1dfff81988e157896c.png",
+    "static/media/Picture1.png": "/ratchaneegorn.io/static/media/Picture1.3115780602ccf91aff0f.png",
+    "static/media/KKUAllAlert.jpg": "/ratchaneegorn.io/static/media/KKUAllAlert.653a444b11a566d54152.jpg",
+    "index.html": "/ratchaneegorn.io/index.html",
+    "main.2a81cc93.css.map": "/ratchaneegorn.io/static/css/main.2a81cc93.css.map",
+    "main.44dbd6e2.js.map": "/ratchaneegorn.io/static/js/main.44dbd6e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a81cc93.css",
+    "static/js/main.44dbd6e2.js"
+  ]
+}
